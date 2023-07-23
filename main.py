@@ -47,4 +47,14 @@
 #   # c+=1
 #   # if c==10:
 #   #   break
-# add(3,4)           
+# # add(3,4)     
+# a=1
+# b=2
+# b=a+b
+def add(a,b):           //a 1           b 2        
+  for i in range(5):    // 0 1
+    c=a+b               // c 3 5
+    a=b                 //a  2  3
+    b=c                 //b 3 5
+  return c              // 3
+print(add(1,2))         //
