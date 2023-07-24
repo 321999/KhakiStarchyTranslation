@@ -75,6 +75,10 @@
 # print(fact(5))
 # fac=1
 
-# def recursively_adding(a,b):
+def recursively_adding():
+  for i in range(10):
+    print("hello")
+  return recursively_adding()
   
+recursively_adding()
   
